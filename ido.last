@@ -1,0 +1,54 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jasonkao/cs_projects/StuyHacks-Website/" . "fonts/")
+ ("/Users/jasonkao/cs_projects/" . "advent-of-code-2017/")
+ ("/Users/jasonkao/" . "cs_projects/")
+ ("/Users/jasonkao/cs_projects/advent-of-code-2017/" . "03/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jasonkao/"
+ "/Users/jasonkao/cs_projects/advent-of-code-2017/03/"
+ "/Users/jasonkao/cs_projects/advent-of-code-2017/05/"
+ "/Users/jasonkao/cs_projects/StuyHacks-Website/fonts/"
+ "/Users/jasonkao/cs_projects/advent-of-code-2017/01/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "Driver.java"
+ "Spiral.java"
+ "sample.in"
+ "day5.in"
+ "Maze.java"
+ "CircularStd-Bold.otf"
+ "InverseCaptcha.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jasonkao/" (23079 12495 0 0) "StuyHacks-Website/" "spectator/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "jedi/" "google-java-format-1.5.jar" "google-java-format-1.5-all-deps.jar" "Downloads/" "Documents/" "Desktop/" "cs_projects/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Jason’s MacBook Pro-5.2" ".yarnrc" ".wapi/" ".viminfo" ".v8flags.5.1.281.102.63a9f0ea7bb98050796b649e85481845.json" ".v8flags.5.1.281.102.616760e162be0bd9158abd4b374e5a29.json" ".Trash/" ".tracker.prefs" ".subversion/" ".ssh/" ".spacemacs.txt" ".spacemacs" ".rvm/" ".rbenv/" ".python_history" ".putty/" ".psql_history" ".profile" ".pgadmin/" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node_repl_history" ".node-gyp/" ".netrc" ".mongorc.js" ".mkshrc" ".matplotlib/" ".local/" ".lesshst" ".idlerc/" ".httpie/" ".gsutil/" ".gitkraken/" ".gitconfig" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".docker/" ".dbshell" ".cups/" ".credentials/" ".config/" ".CFUserTextEncoding" ".bundle/" ".boto" ".bashrc" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".babel.json" ".aws/" ".advent" ".#index.html.save" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/advent-of-code-2017/05/" (23079 12476 0 0) "sample.in" "Maze.java~" "Maze.java" "Maze.class" "Driver.java~" "Driver.java" "Driver.class" "day5.in" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/advent-of-code-2017/03/" (23079 11626 0 0) "Spiral.java" "Spiral.class" "Driver.java" "Driver.class" "day3.in" ".#Spiral.java" "#Spiral.java#" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/advent-of-code-2017/" (23078 45597 0 0) "README.md" "05/" "04/" "03/" "02/" "01/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/StuyHacks-Website/fonts/" (23072 31085 0 0) "CircularStd-MediumItalic.otf" "CircularStd-Medium.otf" "CircularStd-BookItalic.otf" "CircularStd-Book.otf" "CircularStd-BoldItalic.otf" "CircularStd-Bold.otf" "CircularStd-BlackItalic.otf" "CircularStd-Black.otf" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/StuyHacks-Website/" (23072 31152 0 0) "stuyhacks-sponsorship-packet-fall-2017.pdf" "sponsors.json" "register.html" "README.md" "index.html" "img/" "fonts/" "css/" "CNAME" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22773 27232 0 0) "Shared/" "jasonkao/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/advent-of-code-2017/01/" (23077 62516 0 0) "InverseCaptcha.java" "InverseCaptcha.class" "inverse_captcha.in" "Driver.java" "Driver.class" "../" "./")
+
+ ("/Users/jasonkao/cs_projects/" (23073 55854 0 0) "StuyHacks-Website/" "scrapespeare/" "resume/" "jkao1.github.io/" "cracking-cold-copies/" "advent-of-code-2017/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
