@@ -5,13 +5,6 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-
-(setq-default inhibit-startup-screen t)
-(setq-default c-basic-offset 2)
-(set-face-attribute 'default nil :height 140)
-(set-frame-parameter nil 'fullscreen 'fullboth)
-(global-linum-mode t)
-(electric-pair-mode 1)
 (global-set-key (kbd "M-<up>") 'move-region-up)
 (global-set-key (kbd "M-<down>") 'move-region-down)
 
@@ -33,4 +26,14 @@
 (defun move-region-down (start end n)
   "Move the current line down by N lines."
   (interactive "r\np")
-	(move-region start end (if (null n) 1 n)))
+  (move-region start end (if (null n) 1 n)))
+
+(set-face-attribute 'default nil :height 140)
+(set-frame-parameter nil 'fullscreen 'fullboth)
+
+(global-linum-mode t)
+(electric-pair-mode 1)
+
+(setq-default inhibit-startup-screen t)
+(setq-default c-basic-offset 2)
+(setq-default show-trailing-whitespace t)
