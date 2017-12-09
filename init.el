@@ -30,6 +30,7 @@
 
 (set-face-attribute 'default nil :height 140)
 (set-frame-parameter nil 'fullscreen 'fullboth)
+(c-set-offset 'case-label '+)
 
 (global-linum-mode t)
 (electric-pair-mode 1)
@@ -37,3 +38,4 @@
 (setq-default inhibit-startup-screen t)
 (setq-default c-basic-offset 2)
 (setq-default show-trailing-whitespace t)
+(setq-default indent-tabs-mode nil)
