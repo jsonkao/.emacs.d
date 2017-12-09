@@ -31,9 +31,6 @@
   (interactive "r\np")
 	(move-region start end (if (null n) 1 n)))
 
-(setq inhibit-startup-screen t)
-(setq global-linum-mode t)
-
-(custom-set-variables
- '(initial-frame-alist (quote ((fullscreen . maximized)))))
+(setq-default inhibit-startup-screen t)
+(global-linum-mode t)
 
