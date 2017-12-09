@@ -5,8 +5,12 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+
+(setq-default inhibit-startup-screen t)
 (setq-default c-basic-offset 2)
 (set-face-attribute 'default nil :height 140)
+(global-linum-mode t)
+(electric-pair-mode 1)
 
 (global-set-key (kbd "M-<up>") 'move-region-up)
 (global-set-key (kbd "M-<down>") 'move-region-down)
@@ -30,7 +34,3 @@
   "Move the current line down by N lines."
   (interactive "r\np")
 	(move-region start end (if (null n) 1 n)))
-
-(setq-default inhibit-startup-screen t)
-(global-linum-mode t)
-
