@@ -5,9 +5,6 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/"))
-
 (global-set-key (kbd "M-<up>") 'move-region-up)
 (global-set-key (kbd "M-<down>") 'move-region-down)
 
