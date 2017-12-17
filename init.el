@@ -5,6 +5,9 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+
 (global-set-key (kbd "M-<up>") 'move-region-up)
 (global-set-key (kbd "M-<down>") 'move-region-down)
 
@@ -48,7 +51,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+    (projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
