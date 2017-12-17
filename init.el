@@ -5,6 +5,9 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/"))
+
 (global-set-key (kbd "M-<up>") 'move-region-up)
 (global-set-key (kbd "M-<down>") 'move-region-down)
 
@@ -33,9 +36,24 @@
 (c-set-offset 'case-label '+)
 
 (global-linum-mode t)
+(global-set-key [f8] 'neotree-toggle)
 (electric-pair-mode 1)
 
 (setq-default inhibit-startup-screen t)
 (setq-default c-basic-offset 2)
 (setq-default show-trailing-whitespace t)
 (setq-default indent-tabs-mode nil)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
