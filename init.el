@@ -38,6 +38,7 @@
 
 (setq-default inhibit-startup-screen t)
 (setq-default c-basic-offset 2)
+(setq-default js-indent-level 2)
 (setq-default show-trailing-whitespace t)
 (setq-default indent-tabs-mode nil)
 (custom-set-variables
