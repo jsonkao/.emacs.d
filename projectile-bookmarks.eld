@@ -1,0 +1,1 @@
+("~/spectator/client-app/")
