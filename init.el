@@ -38,6 +38,7 @@
 (global-linum-mode t)
 (global-set-key [f8] 'neotree-toggle)
 (electric-pair-mode 1)
+(projectile-mode 1)
 
 (setq-default inhibit-startup-screen t)
 (setq-default c-basic-offset 2)

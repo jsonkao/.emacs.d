@@ -1,1 +1,1 @@
-("~/spectator/client-app/")
+("~/.emacs.d/" "~/spectator/client-app/")
