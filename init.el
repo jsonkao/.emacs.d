@@ -31,6 +31,13 @@
   (interactive "r\np")
   (move-region start end (if (null n) 1 n)))
 
+(global-set-key (kbd "C-c b") 'open-in-browser)
+
+(defun open-in-browser()
+  (interactive)
+  (let ((filename (buffer-file-name)))
+    (browse-url (concat "file://" filename))))
+
 (set-face-attribute 'default nil :height 140)
 (set-frame-parameter nil 'fullscreen 'fullboth)
 (c-set-offset 'case-label '+)

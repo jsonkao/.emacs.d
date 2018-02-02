@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/spectator/client-app/")
+("~/.emacs.d/" "~/cs_projects/resume/" "~/spectator/cli-uploader/" "~/cs_projects/Demographics_data/" "~/cs_projects/elections-scraper/" "~/cs_projects/wiki-table-scrape/" "~/cs_projects/data-cruncher/" "~/MediaPopUpEffect/" "~/cs_projects/gerry/" "~/spectator/client-app/" "~/cs_projects/scrapespeare/" "~/cs_projects/jkao1.github.io/" "~/spectator/graphiql-app/")
