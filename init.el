@@ -46,6 +46,7 @@
 (c-set-offset 'case-label '+)
 
 (global-linum-mode t)
+(global-auto-revert-mode t)
 (global-set-key [f8] 'neotree-toggle)
 (electric-pair-mode 1)
 (projectile-mode 1)
