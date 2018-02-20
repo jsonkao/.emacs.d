@@ -44,6 +44,7 @@
 (set-face-attribute 'default nil :height 140)
 (set-frame-parameter nil 'fullscreen 'fullboth)
 (c-set-offset 'case-label '+)
+(setq default-tab-width 2)
 
 (global-linum-mode t)
 (global-auto-revert-mode t)
@@ -63,7 +64,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+    (go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
