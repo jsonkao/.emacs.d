@@ -42,9 +42,11 @@
     (browse-url (concat "file://" filename))))
 
 (set-face-attribute 'default nil :height 140)
-(set-frame-parameter nil 'fullscreen 'fullboth)
 (c-set-offset 'case-label '+)
 (setq default-tab-width 2)
+
+(when (not (member "-nf" command-line-args))
+  (set-frame-parameter nil 'fullscreen 'fullboth))
 
 (global-linum-mode t)
 (global-auto-revert-mode t)
@@ -77,4 +79,4 @@
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
 (setq backup-directory-alist
-          `(("." . ,(concat user-emacs-directory "backups"))))
+      `(("." . ,(concat user-emacs-directory "backups"))))
