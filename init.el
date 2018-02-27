@@ -82,4 +82,4 @@
       `(("." . ,(concat user-emacs-directory "backups"))))
 
 (require 'column-marker)
-(add-hook 'foo-mode-hook (lambda () (interactive) (column-marker-1 80)))
+(add-hook 'go-mode-hook (lambda () (interactive) (column-marker-1 80)))
