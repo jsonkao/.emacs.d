@@ -3,10 +3,10 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
-
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(package-initialize)
+
 (setq inhibit-default-init t)
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp")
@@ -66,7 +66,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+    (markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
