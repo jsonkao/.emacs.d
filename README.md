@@ -1,4 +1,4 @@
-# jkao1 emacs config
+# jsonkao's emacs config
 
 ## Selfish Requirements
 - `'user-init-file` must be `~/.emacs.d/init.el`
