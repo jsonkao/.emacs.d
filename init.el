@@ -45,8 +45,8 @@
 (c-set-offset 'case-label '+)
 (setq default-tab-width 2)
 
-(when (not (member "-nf" command-line-args))
-  (set-frame-parameter nil 'fullscreen 'fullboth))
+;; (when (not (member "-nf" command-line-args))
+;;   (set-frame-parameter nil 'fullscreen 'fullboth))
 
 (global-linum-mode t)
 (global-auto-revert-mode t)
