@@ -9,7 +9,10 @@
 
 (setq inhibit-default-init t)
 
+(load-theme 'spacemacs-dark t)
+
 (add-to-list 'load-path "~/.emacs.d/site-lisp")
+(add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
 
 (global-set-key (kbd "M-<up>") 'move-region-up)
 (global-set-key (kbd "M-<down>") 'move-region-down)
@@ -35,6 +38,7 @@
   (move-region start end (if (null n) 1 n)))
 
 (global-set-key (kbd "C-c b") 'open-in-browser)
+(add-to-list 'magic-mode-alist '("import.*react" . rjsx-mode))
 
 (defun open-in-browser()
   (interactive)
@@ -64,9 +68,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+    (rjsx-mode spacemacs-theme markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
