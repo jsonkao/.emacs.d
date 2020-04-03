@@ -56,6 +56,7 @@
 (global-set-key [f8] 'neotree-toggle)
 (electric-pair-mode 1)
 (projectile-mode 1)
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 (setq-default inhibit-startup-screen t)
 (setq-default c-basic-offset 2)
@@ -72,7 +73,7 @@
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (rjsx-mode spacemacs-theme markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+    (git-timemachine rjsx-mode spacemacs-theme markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
