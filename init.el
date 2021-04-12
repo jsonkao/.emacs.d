@@ -69,11 +69,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   (quote
-    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+   '("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default))
  '(package-selected-packages
-   (quote
-    (git-timemachine rjsx-mode spacemacs-theme markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout))))
+   '(use-package python-black tuareg git-timemachine rjsx-mode spacemacs-theme markdown-mode go-mode projectile neotree multiple-cursors helm exec-path-from-shell 0blayout)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -89,5 +87,16 @@
       `(("." . ,(concat user-emacs-directory "backups"))))
 
 (require 'column-marker)
-(add-hook 'go-mode-hook (lambda () (interactive) (column-marker-1 80)))
-(add-hook 'python-mode-hook (lambda () (interactive) (column-marker-1 80)))
+(add-hook 'go-mode-hook (lambda () (interactive) (column-marker-1 88)))
+(add-hook 'python-mode-hook (lambda () (interactive) (column-marker-1 88)))
+
+;; black Python formatting
+(require 'use-package)
+(use-package python-black
+  :demand t
+  :after python)
+(setq exec-path (cons "/usr/local/bin" exec-path))
+(custom-set-variables
+ '(python-black-command "python3")
+ )
+(global-set-key (kbd "C-c f") 'python-black-buffer)
